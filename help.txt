@@ -1,1 +1,6 @@
-DOCUMENTATIO
+Para a pasta Front End instalar o ionic
+npm install -g ionic cordova
+
+Após para iniciar o comando é
+ionic serve
+
