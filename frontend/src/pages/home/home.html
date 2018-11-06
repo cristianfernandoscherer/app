@@ -3,24 +3,50 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Diarista</ion-title>
+    <ion-title>LimpezaJá</ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content no-padding>
-  <ion-row class="title">
-      <h3>Bem vindo ao App Diarista!</h3>
-
-      <p>
-        Encontre uma diarista perto de você.
-      </p>
-  </ion-row>
+<ion-content class='mt20' no-bounce>
+  <ion-card>
   
-
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_nZ4XsxJUVzkw2SJmnwYKBD3j29TsHvTCenoKtmSAYXUR18Ih">
   
-  <div class="mapBackground">
+    <ion-card-content>
+      <p> Você não reconhece mais sua própria casa? Falta espaço na sua pia? Sem roupas no armário? <br/>
+          É, você precisa de ajuda! Contrate um de nossos profissionais e dê adeus aos seus problemas.</p>
+    </ion-card-content>
+  
+  </ion-card>
+
+  <ion-card>
+    <ion-list>
+      <button ion-item>
+          <ion-icon name="construct" item-start></ion-icon>
+          Diarista
+      </button>
+      <button ion-item>
+        <ion-icon name="briefcase" item-start></ion-icon>
+          Contratante
+      </button>
+    </ion-list>
+  </ion-card>
+
+    <ion-row class="title">
+      <button class='btn-modelo-um' ion-button full>
+        Já possuo cadastro
+      </button>
+    </ion-row>
+  
+  <!--<div class="mapBackground">
         <button ion-button class="mapBackground__btn">
           BUSCAR
         </button>
-  </div>
+  </div>-->
 </ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-title>Serviços de limpeza</ion-title>
+  </ion-toolbar>
+</ion-footer>

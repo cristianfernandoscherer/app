@@ -14,3 +14,32 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+    
+.content-md{
+    background: #f4f4f7;
+}
+
+ion-footer .toolbar-background-md {
+    border-color: #b2b2b2;
+    background: #711fa2bd;
+}
+
+ion-footer .toolbar-title-md{
+    color: #efefef;
+}
+
+.btn-modelo-um{
+    background: transparent;
+    color: #711fa2bd;
+    font-weight: bold;
+}
+
+strong{
+    font-weight: bold;
+}
+
+.mt20{
+    margin-top: 20px;
+}
+

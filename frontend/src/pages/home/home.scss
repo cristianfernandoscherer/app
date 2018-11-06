@@ -1,6 +1,6 @@
 page-home {
     .title{
-        padding: 0 16px;
+        padding: 0 10px;
     }
     .mapBackground{
         position: relative;
@@ -9,10 +9,39 @@ page-home {
         background: url('../assets/imgs/mapBackground.png') no-repeat;
         background-size: cover;
 
-        &__btn{
-            position: absolute;
-            top: calc(50% - 70px);
-            left: calc(50% - 42px);
-        }
+        //&__btn{
+         //   position: absolute;
+        //    top: calc(50% - 70px);
+        //    left: calc(50% - 42px);
+       // }
+    }
+    .card-md {
+        background: transparent;
+        -webkit-box-shadow: none;
+    }
+    .card-content-md {
+        padding: 14px 0px;
+        text-align: center;
+    }
+    
+    .item-md{
+        background: transparent;
+        border-bottom: 1px solid #d4d4d4
+    }
+
+    .item-md:first-child{
+        border-left: 4px solid blue;
+    }
+
+    .item-md:nth-child(2){
+        border-left: 4px solid orange;
+    }
+    ion-footer .toolbar-title-md {
+        color: white;
+        font-size: 15px;
+        font-weight: normal;
+        font-style: italic;
+        text-align: center;
+        
     }
 }
